@@ -87,10 +87,25 @@ network={
 3. Look for a device named "raspberrypi".
 4. Note its IP address, for example: 192.168.1.11
 
+---
+# Connect to Raspberry Pi using SSH
+
+1. Open Command Prompt (cmd) on your laptop.
+2. Type the following command:
+
+```bash
+ssh pi@192.168.1.11
+```
+3. When prompted, type:
+   yes
+4. Then enter the password:
+   raspberry
+5. You are now connected to your Raspberry Pi terminal.
+
+---
 
 
-
-
+# Enable VNC on Raspberry Pi
 
 
 
