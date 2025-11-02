@@ -129,6 +129,34 @@ sudo raspi-config
 ---
 # Troubleshooting
 
+1. SSH Connection Timeout:
+   - Ensure the Raspberry Pi is connected to the same router.
+   - Confirm SSH was enabled via Imager or 'ssh' file.
+   - Verify the IP address using Angry IP Scanner.
+
+2. Wi-Fi Not Working:
+   - Reconnect via Ethernet and run:
+     sudo raspi-config
+     → System Options → Wireless LAN
+     → Enter SSID and password.
+   - Reboot the Raspberry Pi.
+
+3. RealVNC Connection Refused:
+   - Ensure VNC is enabled:
+     sudo raspi-config → Interface Options → VNC → Enable
+   - Start the service manually:
+     sudo systemctl start vncserver-x11-serviced.service
+   - Enable it at boot:
+     sudo systemctl enable vncserver-x11-serviced.service
+
+---
+# Credits
+Inspired by: "Engineering with Utsav"
+Original Video: https://youtu.be/E5cbM-aYgO4?t=633
+                https://youtu.be/IuA8kkImewQ?list=PLLSegLrePWgLzBgQqDJvgZ4ewbpCnuare
+
+Documented and adapted by: [Mohamad Mrad]
+
 
 
 
