@@ -116,6 +116,18 @@ sudo raspi-config
 
 ---
 # Connect via RealVNC Viewer
+1. Download RealVNC Viewer from:
+   https://www.realvnc.com/en/connect/download/viewer/
+2. Open RealVNC Viewer.
+3. In the address bar, type your Raspberry Pi’s IP address (example: 192.168.1.11).
+4. Click Connect.
+5. Login credentials:
+   Username: pi
+   Password: raspberry
+6. The Raspberry Pi desktop should now appear on your laptop screen.
+
+---
+# Troubleshooting
 
 
 
