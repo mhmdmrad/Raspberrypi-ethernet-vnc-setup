@@ -26,6 +26,8 @@
 - Angry IP Scanner
 - RealVNC Viewer
 
+---
+
 # Download and Flash Raspberry Pi OS
 
 1. Go to: https://www.raspberrypi.com/software/
@@ -67,4 +69,62 @@ network={
 }
    ```
 5. Save the file and safely eject the SD card again.
+
+---
+
+# Connect Raspberry Pi via Ethernet to Router
+1. Insert the SD card into your Raspberry Pi.
+2. Connect one end of the Ethernet cable to the Raspberry Pi.
+3. Connect the other end to your router’s LAN port.
+4. Power on the Raspberry Pi using its USB-C power adapter.
+5. Wait about 1–2 minutes for the Pi to boot completely.
+
+---
+# Find Raspberry Pi IP Address
+
+1. Download Angry IP Scanner: https://angryip.org/download/
+2. Open Angry IP Scanner and scan your local network range (example: 192.168.1.0 – 192.168.1.255).
+3. Look for a device named "raspberrypi".
+4. Note its IP address, for example: 192.168.1.11
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
