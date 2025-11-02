@@ -151,7 +151,9 @@ sudo raspi-config
 
 ---
 # Credits
-Inspired by: "Engineering with Utsav"
+Inspired by: "Robotics Back-End"
+
+
 Original Video: https://youtu.be/E5cbM-aYgO4?t=633
                 https://youtu.be/IuA8kkImewQ?list=PLLSegLrePWgLzBgQqDJvgZ4ewbpCnuare
 
