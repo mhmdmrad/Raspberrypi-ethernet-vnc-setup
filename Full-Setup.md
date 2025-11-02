@@ -106,6 +106,18 @@ ssh pi@192.168.1.11
 
 
 # Enable VNC on Raspberry Pi
+1. Inside the SSH terminal, type:
+```bash
+sudo raspi-config
+```
+2. Navigate through the menu:
+   Interface Options → VNC → Enable
+3. Press Tab → Finish → Reboot.
+
+---
+# Connect via RealVNC Viewer
+
+
 
 
 
