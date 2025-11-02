@@ -57,7 +57,7 @@
 4. Open wpa_supplicant.conf and paste the following:
 
 ```
-country=US
+country=LB  //Put your own country /GB/US/ etc..
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
 update_config=1
 
@@ -66,4 +66,5 @@ network={
     psk="YOUR_WIFI_PASSWORD"
 }
    ```
+5. Save the file and safely eject the SD card again.
 
